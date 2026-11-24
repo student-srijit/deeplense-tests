@@ -1,0 +1,16 @@
+# datasets and large files stay out of git
+data/
+weights/*.pt
+weights/*.pth
+weights/*.h5
+*.zip
+
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+
+.venv-sim/
+external/
+outputs/
